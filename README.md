@@ -1,2 +1,4 @@
 # sentiment-classification
 Sentiment Classification using Averaged Perceptron
+
+The movie review data set contains 8,000 training, 1,000 dev, and 1,000 test sentences and has already been pre-processed. The file svector.py was provided by the course instructor to facilitate the assignment. The main file includes two forms of the perceptron. The first is the naive perceptron which establishes a "baseline". The second is the smart implementation of the "averaged" perceptron which is a variation of the regular perceptron. This script also outputs the 20 most positive/negative words and the 5 most positive/negative sentences in the dataset according to the averaged perceptron model. You should be able to see that the averaged perceptron has an improveddev error ratecompared to the naive perceptron. 
